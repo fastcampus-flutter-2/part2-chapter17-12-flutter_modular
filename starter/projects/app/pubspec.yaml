@@ -1,0 +1,21 @@
+name: flutter_modular_starter
+description: A new Flutter projects.
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: 3.2.6
+  flutter: 3.16.9
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  add:
+    path: ../../packages/add
+
+  setting:
+    path: ../../packages/setting
+
+flutter:
+  uses-material-design: true
